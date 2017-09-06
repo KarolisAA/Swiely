@@ -1,1 +1,107 @@
-# Swiely
+<!DOCTYPE html>
+<html>
+
+<html>
+	<head>
+		<title>Bloon</title>
+		<link rel="icon" href="1b728acb33beb9640f696250c3de170d.png" >
+		<meta http-equiv=”refresh” content=”5" />
+	</head>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+</style>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
+
+
+</body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+     <a href="file:///C:/Users/Rycka/Desktop/Balloon2.html" href="#Home" class="w3-bar-item w3-button w3-padding-large">Bloon<img src="bloon logo.png" width="25px"></a>
+    <a href="file:///C:/Users/Rycka/Desktop/Pictures.html" href="#pictures" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Pictures</a>
+    <a href="file:///C:/Users/Rycka/Desktop/Videos.html" href="#Videos" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Videos</a>
+    <a href="file:///C:/Users/Rycka/Desktop/Contact.html#Home" href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+	<a href="file:///C:/Users/Rycka/Desktop/Music.html" href="#Music" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Music</a>
+	<a href="file:///C:/Users/Rycka/Desktop/Rank%20Purchase.html" href="#RankPurchase" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Rank Purchase</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="file:///C:/Users/Rycka/Desktop/top%20players.html" href="#Pictures" class="w3-bar-item w3-button">Top Users</a>
+        <a href="file:///C:/Users/Rycka/Desktop/Friends.html" href="#Friends" class="w3-bar-item w3-button">Friends</a>
+        <a href="file:///C:/Users/Rycka/Desktop/Media.html" href="#Media" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+<a href="file:///C:/Users/Rycka/Desktop/World%20chat.html" href="#Pictures" class="w3-bar-item w3-button">World chat</a> 
+<a href="file:///C:/Users/Rycka/Desktop/Friends.html" href="#" class="w3-bar-item w3-button">Friends</a>
+<a href="file:///C:/Users/Rycka/Desktop/Contact.html#Home" href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+<a href="#" class="w3-bar-item w3-button w3-padding-large">Media</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+
+
+
+
+<div id="board">
+    <table border="1" cellspacing="0" cellpadding="2" width="620"><tbody>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Score</td> 
+                <td>Wave Reached</td> 
+                <td>Seconds Survived</td> 
+                <td>Kills</td> 
+                <td>Deaths</td> 
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+
+                $connect = mysql_connect("localhost","localhost", "password");
+                if (!$connect) {
+                    die(mysql_error());
+                }
+                mysql_select_db("staroids");
+                $results = mysql_query("SELECT name, score, wave, seconds, kills, deaths FROM scores ORDER BY score DESC LIMIT 10");
+                while($row = mysql_fetch_array($results)) {
+                $name = $row['name'];
+                $score = $row['score'];
+                $wave = $row['wave'];
+                $seconds = $row['seconds'];
+                $kills = $row['kills'];
+                $deaths = $row['deaths'];
+            ?>
+                <tr>
+                    <td><?php echo $name;?></td>
+                    <td><?php echo $score;?></td>
+                    <td><?php echo $wave;?></td>
+                    <td><?php echo $seconds;?></td>
+                    <td><?php echo $kills;?></td>
+                    <td><?php echo $deaths;?></td>
+                </tr>
+            <?php
+                }
+                mysql_close($connect);
+            ?>
+        </tbody>
+    </table>
+</div>

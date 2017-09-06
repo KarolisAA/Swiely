@@ -3,9 +3,9 @@
 
 <html>
 	<head>
-		<title>Bloon</title>
+		<title>Trakl</title>
 		<link rel="icon" href="1b728acb33beb9640f696250c3de170d.png" >
-		<meta http-equiv=”refresh” content=”5" />
+		<meta http-equiv=”refresh” content=”2" />
 	</head>
 <html>
 <meta charset="UTF-8">
@@ -19,89 +19,287 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-
-
-
-
+</html>
 </body>
+<body>
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card-2">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-     <a href="file:///C:/Users/Rycka/Desktop/Balloon2.html" href="#Home" class="w3-bar-item w3-button w3-padding-large">Bloon<img src="bloon logo.png" width="25px"></a>
+    <a href="file:///C:/Users/Rycka/Desktop/Balloon2.html" href="#Home" class="w3-bar-item w3-button w3-padding-large">Trakl<img src="bloon logo.png" width="25px"></a>
     <a href="file:///C:/Users/Rycka/Desktop/Pictures.html" href="#pictures" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Pictures</a>
     <a href="file:///C:/Users/Rycka/Desktop/Videos.html" href="#Videos" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Videos</a>
     <a href="file:///C:/Users/Rycka/Desktop/Contact.html#Home" href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
 	<a href="file:///C:/Users/Rycka/Desktop/Music.html" href="#Music" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Music</a>
 	<a href="file:///C:/Users/Rycka/Desktop/Rank%20Purchase.html" href="#RankPurchase" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Rank Purchase</a>
-    <div class="w3-dropdown-hover w3-hide-small">
+	<div class="w3-dropdown-hover w3-hide-small">
+	
+	
+ 
+ <!-- More -->
+ <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="file:///C:/Users/Rycka/Desktop/top%20players.html" href="#Pictures" class="w3-bar-item w3-button">Top Users</a>
+         <a href="file:///C:/Users/Rycka/Desktop/top%20players.html" href="#Pictures" class="w3-bar-item w3-button">Top Users</a>
         <a href="file:///C:/Users/Rycka/Desktop/Friends.html" href="#Friends" class="w3-bar-item w3-button">Friends</a>
         <a href="file:///C:/Users/Rycka/Desktop/Media.html" href="#Media" class="w3-bar-item w3-button">Media</a>
-      </div>
-    </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+		<body>
+		
+      
+	  </div>
+	  </body>
+	  <body>
+		</div>
+		</div>
+  </div>
+
   </div>
 </div>
+
+
+
+
+
+<style>
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {float:left;width:50%}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+
+<body>
+<h6>'</h6>
+</div>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Sign Up</button>
+</div>
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="container"> 
+	  
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <input type="checkbox" checked="checked"> Remember me
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+</body>	  
+</div>
+</div>
+
+
+
+
+
+</body>
+
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-<a href="file:///C:/Users/Rycka/Desktop/World%20chat.html" href="#Pictures" class="w3-bar-item w3-button">World chat</a> 
-<a href="file:///C:/Users/Rycka/Desktop/Friends.html" href="#" class="w3-bar-item w3-button">Friends</a>
-<a href="file:///C:/Users/Rycka/Desktop/Contact.html#Home" href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
-<a href="#" class="w3-bar-item w3-button w3-padding-large">Media</a>
+  <a href="file:///C:/Users/Rycka/Desktop/World%20chat.html" href="#Pictures" class="w3-bar-item w3-button">World chat</a> 
+  <a href="file:///C:/Users/Rycka/Desktop/Friends.html" href="#" class="w3-bar-item w3-button">Friends</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Media</a>
 </div>
+
+
+
+
+
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
-
-
-
-
-
-
-<div id="board">
-    <table border="1" cellspacing="0" cellpadding="2" width="620"><tbody>
-        <thead>
-            <tr>
-                <td>Name</td>
-                <td>Score</td> 
-                <td>Wave Reached</td> 
-                <td>Seconds Survived</td> 
-                <td>Kills</td> 
-                <td>Deaths</td> 
-            </tr>
-        </thead>
-        <tbody>
-            <?php
-
-                $connect = mysql_connect("localhost","localhost", "password");
-                if (!$connect) {
-                    die(mysql_error());
-                }
-                mysql_select_db("staroids");
-                $results = mysql_query("SELECT name, score, wave, seconds, kills, deaths FROM scores ORDER BY score DESC LIMIT 10");
-                while($row = mysql_fetch_array($results)) {
-                $name = $row['name'];
-                $score = $row['score'];
-                $wave = $row['wave'];
-                $seconds = $row['seconds'];
-                $kills = $row['kills'];
-                $deaths = $row['deaths'];
-            ?>
-                <tr>
-                    <td><?php echo $name;?></td>
-                    <td><?php echo $score;?></td>
-                    <td><?php echo $wave;?></td>
-                    <td><?php echo $seconds;?></td>
-                    <td><?php echo $kills;?></td>
-                    <td><?php echo $deaths;?></td>
-                </tr>
-            <?php
-                }
-                mysql_close($connect);
-            ?>
-        </tbody>
-    </table>
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
 </div>
+<div class="w3-container w3-center w3-animate-top">
+<center><h3>This website is not done, it still needs work.Its only a demo.Thanks for you understanding.</h3></center>
+<div class="w3-container w3-center w3-animate-top">
+   <a <center><h1>Trakl!</h1><img src="bloon logo.png" class="w3-round"  style="width:10%"></a></center>
+</div>
+
+</body>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container w3-center w3-animate-top">
+  <h4>We love everything!!</h4>
+</div>
+
+</body>
+    <center>
+	<div class="w3-container w3-center w3-animate-top">
+<a class="w3-justify">We have created a website witch allows you to share photos, music and videos! </a>
+	</center>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+<!-- End Page Content -->
+</div>
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div>
+<script>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+ 
+</footer>
+
+
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>Pinger test</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+  
+
+
+</div>
+<p id="counter">Users online: <span id="userCount">counting…</span></p>
+
+<script type="text/javascript" charset="utf-8">
+$().ready(function (){
+  var token = '';
+  var pinger = setInterval(function (){
+    
+    $.ajax({
+      cache: false,
+      data: {
+        token: token,
+      },
+      timeout: 2500,
+      type: 'GET',
+      url: 'pinger.php',
+      dataType: 'json',
+      success: function (data, status, jqXHR){
+        $('#userCount').text(data.userCount);
+        token = data.token;
+      }
+    });
+    
+  }, 5000);
+});
+</script>
+  
+  
+</body>

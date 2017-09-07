@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+	<head>
+		<title>Bloon</title>
+		<link rel="icon" href="1b728acb33beb9640f696250c3de170d.png" >
+		<meta http-equiv=”refresh” content=”5" />
+	</head>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+</style>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
+</body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+     <a href="file:///C:/Users/Rycka/Desktop/Balloon2.html" href="#Home" class="w3-bar-item w3-button w3-padding-large">Bloon<img src="1b728acb33beb9640f696250c3de170d.png" width="25px"></a>
+    <a href="file:///C:/Users/Rycka/Desktop/Pictures.html" href="#pictures" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Pictures</a>
+    <a href="file:///C:/Users/Rycka/Desktop/Videos.html" href="#Videos" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Videos</a>
+    <a href="file:///C:/Users/Rycka/Desktop/Contact.html#Home" href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+	<a href="file:///C:/Users/Rycka/Desktop/Music.html" href="#Music" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Music</a>
+	<a href="file:///C:/Users/Rycka/Desktop/Rank%20Purchase.html" href="#RankPurchase" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Rank Purchase</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="file:///C:/Users/Rycka/Desktop/World%20chat.html" href="#Pictures" class="w3-bar-item w3-button">World chat</a>
+        <a href="file:///C:/Users/Rycka/Desktop/Friends.html" href="#" class="w3-bar-item w3-button">Friends</a>
+        <a href="file:///C:/Users/Rycka/Desktop/Media.html" href="#Media" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="file:///C:/Users/Rycka/Desktop/World%20chat.html"><href="#Pictures" class="w3-bar-item w3-button w3-padding-large">World chat</a>
+  <a href="file:///C:/Users/Rycka/Desktop/Friends.html" href="#" class="w3-bar-item w3-button">Friends</a>
+      <a href="file:///C:/Users/Rycka/Desktop/Contact.html#Home" href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Media</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<!-- The Contact Section -->
+<center>
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <div class="w3-container w3-center w3-animate-top">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+	<div class="w3-container w3-center w3-animate-top">
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+	
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i>Lithuania<br>
+		</div>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +999999999<br>
+		</div>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: magnis4400gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+			</div>
+			</div>
+			</div> 
+			 <div  class="w3-half">
+			 </div>
+			 </div>
+			 <div class="w3-container w3-center w3-animate-left">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            
+           <div  class="w3-half">
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+		  
+		  
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+		  </div>
+		  </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </center>

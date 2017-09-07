@@ -272,8 +272,6 @@ window.onclick = function(event) {
 </head>
 <body>
 
-
-
 </div>
 <p id="counter">Users online: <span id="userCount">counting…</span></p>
 
@@ -284,7 +282,7 @@ $().ready(function (){
 
     $.ajax({
       cache: false,
-      data: {
+      data: { 
         token: token,
       },
       timeout: 2500,

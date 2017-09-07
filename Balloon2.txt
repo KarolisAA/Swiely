@@ -33,19 +33,19 @@
 	<a href="file:///C:/Users/Rycka/Desktop/Music.html" href="#Music" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Music</a>
 	<a href="file:///C:/Users/Rycka/Desktop/Rank%20Purchase.html" href="#RankPurchase" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Rank Purchase</a>
 	<div class="w3-dropdown-hover w3-hide-small">
-
-
-
+	
+	
+ 
  <!-- More -->
  <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>
+      <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
          <a href="file:///C:/Users/Rycka/Desktop/top%20players.html" href="#Pictures" class="w3-bar-item w3-button">Top Users</a>
         <a href="file:///C:/Users/Rycka/Desktop/Friends.html" href="#Friends" class="w3-bar-item w3-button">Friends</a>
         <a href="file:///C:/Users/Rycka/Desktop/Media.html" href="#Media" class="w3-bar-item w3-button">Media</a>
 		<body>
-
-
+		
+      
 	  </div>
 	  </body>
 	  <body>
@@ -56,7 +56,7 @@
   </div>
 </div>
 
-dfdf
+
 
 
 
@@ -158,8 +158,8 @@ button {
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
   <form class="modal-content animate" action="/action_page.php">
-    <div class="container">
-
+    <div class="container"> 
+	  
       <label><b>Email</b></label>
       <input type="text" placeholder="Enter Email" name="email" required>
 
@@ -191,7 +191,7 @@ window.onclick = function(event) {
 }
 </script>
 </div>
-</body>
+</body>	  
 </div>
 </div>
 
@@ -203,7 +203,7 @@ window.onclick = function(event) {
 
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="file:///C:/Users/Rycka/Desktop/World%20chat.html" href="#Pictures" class="w3-bar-item w3-button">World chat</a>
+  <a href="file:///C:/Users/Rycka/Desktop/World%20chat.html" href="#Pictures" class="w3-bar-item w3-button">World chat</a> 
   <a href="file:///C:/Users/Rycka/Desktop/Friends.html" href="#" class="w3-bar-item w3-button">Friends</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large">Media</a>
@@ -229,7 +229,7 @@ window.onclick = function(event) {
 </div>
 
 </body>
-
+	
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
@@ -260,7 +260,7 @@ window.onclick = function(event) {
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
   <i class="fa fa-twitter w3-hover-opacity"></i>
   <i class="fa fa-linkedin w3-hover-opacity"></i>
-
+ 
 </footer>
 
 
@@ -271,6 +271,8 @@ window.onclick = function(event) {
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
+  
+
 
 </div>
 <p id="counter">Users online: <span id="userCount">counting…</span></p>
@@ -279,10 +281,10 @@ window.onclick = function(event) {
 $().ready(function (){
   var token = '';
   var pinger = setInterval(function (){
-
+    
     $.ajax({
       cache: false,
-      data: { 
+      data: {
         token: token,
       },
       timeout: 2500,
@@ -294,10 +296,10 @@ $().ready(function (){
         token = data.token;
       }
     });
-
+    
   }, 5000);
 });
 </script>
-
-
+  
+  
 </body>

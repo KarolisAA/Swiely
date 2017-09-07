@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+	<head>
+		<title>Trakl</title>
+		<link rel="icon" href="1b728acb33beb9640f696250c3de170d.png" >
+		<meta http-equiv=”refresh” content=”5" />
+	</head>
+<html>
+<!DOCTYPE html>
+<html>
+<body>
+
+
+</form>
+
+
+</body>
+</html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+</style>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+</div>
+</div>
+<h2>`</h2>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+     <a href="file:///C:/Users/Rycka/Desktop/Balloon2.html" href="#Home" class="w3-bar-item w3-button w3-padding-large">Trakl<img src="bloon logo.png" width="25px"></a>
+    <a href="file:///C:/Users/Rycka/Desktop/Pictures.html" href="#pictures" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Pictures</a>
+    <a href="file:///C:/Users/Rycka/Desktop/Videos.html" href="#Videos" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Videos</a>
+    <a href="file:///C:/Users/Rycka/Desktop/Contact.html#Home" href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+	<a href="file:///C:/Users/Rycka/Desktop/Music.html" href="#Music" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Music</a>
+	<a href="file:///C:/Users/Rycka/Desktop/Rank%20Purchase.html" href="#RankPurchase" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Rank Purchase</a>
+
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+         <a href="file:///C:/Users/Rycka/Desktop/top%20players.html" href="#Pictures" class="w3-bar-item w3-button">Top Users</a>
+        <a href="file:///C:/Users/Rycka/Desktop/Friends.html" href="#" class="w3-bar-item w3-button">Friends</a>
+        <a href="file:///C:/Users/Rycka/Desktop/Media.html" href="#Media" class="w3-bar-item w3-button">Media</a>
+		</div>
+	   </div>
+	  </div>
+	 </div>
+    </div>
+		
+		<div class="w3-container">
+  <h2>Daily pictures</h2>
+</div>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 ">
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img_fjords_wide.jpg" style="width:100%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 ">
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 ">
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img_nature_wide (1).jpg" style="width:100%">
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 ">
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img_lights_wide.jpg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 ">
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+
+</body>
+
+
+<style>
+.btnDefault, .btnUpload {
+    background-color: #000000;
+    border: 1px solid #E8E4C9;
+    color: #E8E4C9;
+    cursor: pointer;
+    font-weight: 400;
+    display: inline-block;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}       
+.btnDefault:focus, .btnDefault:hover, .btnUpload:focus, .btnUpload:hover {
+    background-color: #00CED1;
+}
+.btnM {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+.customUpload {
+    overflow: hidden;
+    position: relative;
+}
+.customUpload input.upload {
+    cursor: pointer;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+</style>
+<center>
+<div class="col-3 frmCaption"></div>
+<div class="col-9">
+    <div class="customUpload btnUpload btnM">
+        <span>Upload Picture</span>
+        <input type="file" class="upload" />
+    </div>
+</div>
+</center>
+
+</html>
+
+		
+		
+		

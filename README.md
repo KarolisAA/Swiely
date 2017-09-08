@@ -1,5 +1,5 @@
 # Documentation
-Project Swiely 0.0.1 1709 version
+Project Swiely v0.0.1 1709
 ###### Requirements
 - PHP 5.5.9+
 - Composer

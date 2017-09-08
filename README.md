@@ -5,3 +5,6 @@ Project Swiely v0.0.1 1709
 - Composer
 - Sass compiler (koala)
 - Mysql server
+
+
+## Installation Guide
